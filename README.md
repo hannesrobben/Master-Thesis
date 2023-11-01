@@ -1,9 +1,20 @@
 # Master-Thesis
-This is the code of my master thesis with the tilte "Ai-assisted real time stabilization of an optical resonator."
+This is the code of my master thesis entitled "Ai-assisted real-time stabilisation of an optical resonator".
+For a small insight into the work and its goal, go to the folder "Thesis Information".
 
-## Thesis Abstract
-This thesis examines the application of artificial intelligence to optimize optical resonator mode matching. 
-A thorough experimental setup was devised, incorporating essential elements for the Pound-Drever-Hall method and developing a digital twin for AI training. 
-Various improvements in AI performance were explored and assessed across different simulated environments. 
-While the AI model proved successful in familiar settings by identifying optimal mode matching conditions, it encountered challenges when confronted with unfamiliar environments.
-Nevertheless, notable potential lies within integrating AI into this field if adjustments are made to have the agent generate relative actions instead of absolute actions.
+## Introduction
+The goal of this thesis was to investigate the possibility of the use of AI to optimize the modematching of a Fabry-Perót Interferometer.
+For this, i used Reinforcement Learning with the Double Deep Q-Network algorithm. The Environment is the simulation of the beam walk together with the FPI.
+I used the complex q-paramter and ABCD-matrix law for the simulation of the environment and calculation of the state.
+
+
+## Code Structure
+
+
+
+## Code Evaluation
+
+
+
+## Further Development?
+I might come back to this problem and furhter investigate the implementation of the AI with the results of this thesis.
